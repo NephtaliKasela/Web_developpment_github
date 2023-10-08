@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 60px 40px 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            border: 2px solid #ffa94d;
+            border-radius: 5px;
+            background-color: lightblue;
+            padding: 1px;
+            color: lightcoral;
+
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .box2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 3;
+        }
+        .grid-item{
+            background-color: antiquewhite;
+            border-color: darkblue;
+            border-style: solid;
+            border-width: 0px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            padding: 2px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="box1">One</div>
+        <div class="box2">Two</div>
+        <div class="grid-item">Three</div>
+        <div class="grid-item">Four</div>
+        <div class="grid-item">Five</div>
+    </div>
+    
+</body>
+</html>
