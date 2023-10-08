@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+}
+.head{
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.head-text{
+    font-size: xx-large;
+    color: cadetblue;
+}
+.picture{
+    text-align: center;
+}
+
+.picture02{
+    text-align: center;
+}
+
+.parag01{
+    color:rgb(52, 71, 94);
+    font-size: large;
+}
+
+.title02-bloc{
+    background-color: gainsboro;
+    margin: 0px;
+    padding: 5px;
+    border-color: black ;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.title02{
+    color: darkgoldenrod;
+}
+
+.subject{
+    color: rgb(202, 167, 78);
+    font-size: large;
+}
+
